@@ -1,5 +1,8 @@
 # azure-cyber-range
 A multi-tier Azure cyber range demonstrating cloud network micro-segmentation, NSG configuration, and attack reconnaissance emulation. Validates zero-trust security controls and generates security telemetry for incident documentation.
+# azure-cyber-range
+A multi-tier Azure cyber range demonstrating cloud network micro-segmentation, NSG configuration, and attack reconnaissance emulation. Validates zero-trust security controls and generates security telemetry for incident documentation.
+
 # Azure Multi-Node Cyber Range & Network Segmentation Lab
 
 ## Executive Summary
@@ -12,6 +15,7 @@ This project demonstrates the deployment of a hardened, multi-node cloud-based c
 * **Frontend Node (`cyber-range-vm`)**: Ubuntu 24.04 LTS instance serving as the initial access point and testing platform. Configured with Azure Bastion access.
 * **Backend Node (`snet-internal`)**: Internal Ubuntu 24.04 LTS instance (`10.0.1.4`) isolated within a private subnet.
 * **Security Controls**: Azure Network Security Groups (NSGs) enforced to isolate subnets and restrict default traffic flows.
+* **Security & Vulnerability Tooling**: Simulated vulnerability and posture assessments aligned with enterprise frameworks like **Tenable** to identify exposed attack surfaces.
 * **Runtime Stack**: Cloud Infrastructure (Azure VNets, Subnets, NSGs), Ubuntu 24.04 LTS (GNU/Linux Kernel Azure), and native Bash TCP/IP stack utilities (`nc`, `ping`).
 
 ---
